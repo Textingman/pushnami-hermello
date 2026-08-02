@@ -33,7 +33,7 @@ export default function PrivacyPage() {
           <ul className="list-disc pl-6 mb-6 space-y-2" style={{ color: '#6B7280' }}>
             <li>You may receive Account Notification messages and/or Customer Care messages depending on your opt-in selections.</li>
             <li>Message and data rates may apply. Message frequency varies.</li>
-            <li>To opt out, reply STOP to any message. To get help, reply HELP or contact us at support@hermello.com.</li>
+            <li>To opt out, reply STOP to any message. To get help, reply HELP or contact us at support@tryhermello.com.</li>
             <li><strong>No mobile information will be shared with or sold to third parties for marketing or promotional purposes.</strong></li>
             <li>Opting in to SMS is optional and not required to use our service.</li>
           </ul>
@@ -48,8 +48,8 @@ export default function PrivacyPage() {
           <p className="mb-6" style={{ color: '#6B7280' }}>
             If you have questions about this Privacy Policy, please contact us at:<br />
             Hermello<br />
-            8 The Green, Ste A, Dover, DE 19901<br />
-            Email: <a href="mailto:support@hermello.com" style={{ color: '#7C3AED' }}>support@hermello.com</a>
+            7421 Burnet Rd, Suite 184, Austin, TX 78757<br />
+            Email: <a href="mailto:support@tryhermello.com" style={{ color: '#7C3AED' }}>support@tryhermello.com</a>
           </p>
         </div>
       </section>

@@ -24,7 +24,7 @@ export default function TermsPage() {
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>3. SMS Communications</h2>
           <p className="mb-4" style={{ color: '#6B7280' }}>
-            By opting in to SMS communications, you agree to receive text messages from Hermello. Standard message and data rates may apply. You may opt out at any time by replying STOP. For help, reply HELP or contact support@hermello.com.
+            By opting in to SMS communications, you agree to receive text messages from Hermello. Standard message and data rates may apply. You may opt out at any time by replying STOP. For help, reply HELP or contact support@tryhermello.com.
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>4. Limitation of Liability</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
@@ -32,7 +32,7 @@ export default function TermsPage() {
           </p>
           <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: '#1F2937' }}>5. Contact</h2>
           <p className="mb-6" style={{ color: '#6B7280' }}>
-            For questions about these Terms, contact us at support@hermello.com or 8 The Green, Ste A, Dover, DE 19901.
+            For questions about these Terms, contact us at support@tryhermello.com or 7421 Burnet Rd, Suite 184, Austin, TX 78757.
           </p>
         </div>
       </section>

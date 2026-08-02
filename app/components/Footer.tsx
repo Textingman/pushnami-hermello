@@ -45,9 +45,9 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
-            <p style={{ color: '#DDD6FE' }}>support@hermello.com</p>
-            <p className="mt-2" style={{ color: '#DDD6FE' }}>8 The Green, Ste A, Dover, DE 19901</p>
-            <p className="mt-2" style={{ color: '#DDD6FE' }}>(855) 437-6355</p>
+            <p style={{ color: '#DDD6FE' }}>support@tryhermello.com</p>
+            <p className="mt-2" style={{ color: '#DDD6FE' }}>7421 Burnet Rd, Suite 184, Austin, TX 78757</p>
+            <p className="mt-2" style={{ color: '#DDD6FE' }}>+1 (855) 610-6247</p>
           </div>
         </div>
         <div className="mt-8 pt-8 text-center" style={{ borderTop: '1px solid #7C3AED', color: '#DDD6FE' }}>
