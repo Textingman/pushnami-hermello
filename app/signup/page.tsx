@@ -249,7 +249,7 @@ export default function SignupPage() {
                     onChange={handleChange}
                     className="mt-1 h-4 w-4 text-[#EFE810] focus:ring-[#EFE810] border-gray-300 rounded flex-shrink-0" />
                   <label htmlFor="smsOptIn" className="ml-3 text-sm leading-relaxed text-[#555555]">
-                    By checking this box and submitting this form, you agree to receive alert related text messages from Hermello. I understand I may opt out of SMS communication by replying <strong>STOP</strong>. Reply <strong>HELP</strong> or email <a href="mailto:support@hermello.com" className="text-[#1A1A1A] underline">support@hermello.com</a> for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form or to use our services. All messages will be handled by Hermello.
+                    By checking this box and submitting this form, you agree to receive alert related text messages from Hermello. I understand I may opt out of SMS communication by replying <strong>STOP</strong>. Reply <strong>HELP</strong> or email <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] underline">support@tryhermello.com</a> for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form or to use our services. All messages will be handled by Hermello.
                   </label>
                 </div>
               </div>
@@ -298,8 +298,8 @@ export default function SignupPage() {
                 </p>
                 <p className="text-[#555555] text-sm leading-relaxed mt-3">
                   ⏱ Approval typically takes <strong>1–2 business days</strong>. If you have questions, contact us at{' '}
-                  <a href="mailto:support@hermello.com" className="text-[#1A1A1A] underline">support@hermello.com</a>{' '}
-                  or call <a href="tel:+18554376355" className="text-[#1A1A1A] underline">(855) 437-6355</a>.
+                  <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] underline">support@tryhermello.com</a>{' '}
+                  or call <a href="tel:+18556106247" className="text-[#1A1A1A] underline">(855) 610-6247</a>.
                 </p>
               </div>
               <Link href="/"
@@ -339,12 +339,12 @@ export default function SignupPage() {
             </div>
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
-              <p className="text-gray-400">support@hermello.com</p>
-              <p className="text-gray-400 mt-1 text-sm">(855) 437-6355</p>
-              <p className="text-gray-400 mt-1">(855) 437-6355</p>
+              <p className="text-gray-400">support@tryhermello.com</p>
+              <p className="text-gray-400 mt-1 text-sm">(855) 610-6247</p>
+              <p className="text-gray-400 mt-1">(855) 610-6247</p>
               <p className="text-gray-400 mt-2 text-sm">
-                8 The Green, Ste A<br />
-                Dover, DE 19901<br />
+                7421 Burnet Rd, Suite 184<br />
+                Austin, TX 78757<br />
                 United States
               </p>
             </div>

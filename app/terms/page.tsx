@@ -263,12 +263,12 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.4 Opt-Out</h3>
           <p className="text-gray-600 mb-6">
-            You may opt out of SMS notifications at any time by replying <strong>STOP</strong> to any message you receive from us. After opting out, you will no longer receive SMS messages from Hermello. To re-enable SMS notifications, contact us at <a href="mailto:support@hermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@hermello.com</a>.
+            You may opt out of SMS notifications at any time by replying <strong>STOP</strong> to any message you receive from us. After opting out, you will no longer receive SMS messages from Hermello. To re-enable SMS notifications, contact us at <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryhermello.com</a>.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.5 Help</h3>
           <p className="text-gray-600 mb-6">
-            For help with SMS messages, reply <strong>HELP</strong> to any message or contact us at <a href="mailto:support@hermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@hermello.com</a> or <a href="tel:+18554376355" className="text-[#1A1A1A] hover:text-[#555555]">(855) 437-6355</a>.
+            For help with SMS messages, reply <strong>HELP</strong> to any message or contact us at <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryhermello.com</a> or <a href="tel:+18556106247" className="text-[#1A1A1A] hover:text-[#555555]">(855) 610-6247</a>.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.6 Message &amp; Data Rates</h3>
@@ -292,8 +292,8 @@ export default function TermsPage() {
             If you have any questions about these Terms, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@hermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@hermello.com</a></p>
-            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@hermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@hermello.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryhermello.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryhermello.com</a></p>
             <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#1A1A1A] hover:text-[#555555]">https://hermello.com</a></p>
           </div>
 
@@ -348,14 +348,14 @@ export default function TermsPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@hermello.com
+                support@tryhermello.com
               </p>
               <p className="text-gray-400 mt-1">
-                (855) 437-6355
+                (855) 610-6247
               </p>
               <p className="text-gray-400 mt-2 text-sm">
-                8 The Green, Ste A<br />
-                Dover, DE 19901<br />
+                7421 Burnet Rd, Suite 184<br />
+                Austin, TX 78757<br />
                 United States
               </p>
             </div>

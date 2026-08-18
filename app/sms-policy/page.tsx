@@ -69,7 +69,7 @@ export default function SmsPolicyPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Opt-Out</h2>
           <p className="text-gray-600 mb-6">
-            You may opt out of SMS notifications at any time by replying <strong>STOP</strong> to any message you receive from us. After opting out, you will no longer receive SMS messages from Hermello. To re-enable SMS notifications, contact us at <a href="mailto:support@hermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@hermello.com</a>.
+            You may opt out of SMS notifications at any time by replying <strong>STOP</strong> to any message you receive from us. After opting out, you will no longer receive SMS messages from Hermello. To re-enable SMS notifications, contact us at <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryhermello.com</a>.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Help</h2>
@@ -77,8 +77,8 @@ export default function SmsPolicyPage() {
             For help with SMS messages, reply <strong>HELP</strong> to any message or contact us at:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-6">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@hermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@hermello.com</a></p>
-            <p className="text-gray-600"><strong>Phone:</strong> <a href="tel:+18554376355" className="text-[#1A1A1A] hover:text-[#555555]">(855) 437-6355</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryhermello.com</a></p>
+            <p className="text-gray-600"><strong>Phone:</strong> <a href="tel:+18556106247" className="text-[#1A1A1A] hover:text-[#555555]">(855) 610-6247</a></p>
           </div>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">Message & Data Rates</h2>
@@ -127,12 +127,12 @@ export default function SmsPolicyPage() {
             </div>
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
-              <p className="text-gray-400">support@hermello.com</p>
-              <p className="text-gray-400 mt-1 text-sm">(855) 437-6355</p>
-              <p className="text-gray-400 mt-1">(855) 437-6355</p>
+              <p className="text-gray-400">support@tryhermello.com</p>
+              <p className="text-gray-400 mt-1 text-sm">(855) 610-6247</p>
+              <p className="text-gray-400 mt-1">(855) 610-6247</p>
               <p className="text-gray-400 mt-2 text-sm">
-                8 The Green, Ste A<br />
-                Dover, DE 19901<br />
+                7421 Burnet Rd, Suite 184<br />
+                Austin, TX 78757<br />
                 United States
               </p>
             </div>

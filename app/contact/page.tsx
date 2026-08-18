@@ -94,8 +94,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-[#1A1A1A] mb-1">Phone</h3>
-                  <a href="tel:+18554376355" className="text-[#555555] hover:text-[#1A1A1A] text-lg">
-                    (855) 437-6355
+                  <a href="tel:+18556106247" className="text-[#555555] hover:text-[#1A1A1A] text-lg">
+                    (855) 610-6247
                   </a>
                 </div>
               </div>
@@ -106,8 +106,8 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-[#1A1A1A] mb-1">Email</h3>
-                  <a href="mailto:support@hermello.com" className="text-[#555555] hover:text-[#1A1A1A] text-lg">
-                    support@hermello.com
+                  <a href="mailto:support@tryhermello.com" className="text-[#555555] hover:text-[#1A1A1A] text-lg">
+                    support@tryhermello.com
                   </a>
                 </div>
               </div>
@@ -119,8 +119,8 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-semibold text-[#1A1A1A] mb-1">Address</h3>
                   <p className="text-[#555555] text-lg leading-relaxed">
-                    8 The Green, Ste A<br />
-                    Dover, DE 19901<br />
+                    7421 Burnet Rd, Suite 184<br />
+                    Austin, TX 78757<br />
                     United States
                   </p>
                 </div>
@@ -316,14 +316,14 @@ export default function ContactPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@hermello.com
+                support@tryhermello.com
               </p>
               <p className="text-gray-400 mt-1">
-                (855) 437-6355
+                (855) 610-6247
               </p>
               <p className="text-gray-400 mt-2 text-sm">
-                8 The Green, Ste A<br />
-                Dover, DE 19901<br />
+                7421 Burnet Rd, Suite 184<br />
+                Austin, TX 78757<br />
                 United States
               </p>
             </div>

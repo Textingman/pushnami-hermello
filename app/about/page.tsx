@@ -234,14 +234,14 @@ export default function AboutPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@hermello.com
+                support@tryhermello.com
               </p>
               <p className="text-gray-400 mt-1">
-                (855) 437-6355
+                (855) 610-6247
               </p>
               <p className="text-gray-400 mt-2 text-sm">
-                8 The Green, Ste A<br />
-                Dover, DE 19901<br />
+                7421 Burnet Rd, Suite 184<br />
+                Austin, TX 78757<br />
                 United States
               </p>
             </div>

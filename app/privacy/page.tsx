@@ -153,7 +153,7 @@ export default function PrivacyPage() {
             <li><strong>Opt-out:</strong> Opt out of marketing communications</li>
           </ul>
           <p className="text-gray-600 mb-6">
-            To exercise these rights, please contact us at <a href="mailto:support@hermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@hermello.com</a>.
+            To exercise these rights, please contact us at <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryhermello.com</a>.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">8. Cookies and Tracking Technologies</h2>
@@ -195,7 +195,7 @@ export default function PrivacyPage() {
             <strong>We do not send marketing or promotional SMS messages.</strong> No mobile information will be shared with or sold to third parties for marketing or promotional purposes.
           </p>
           <p className="text-gray-600 mb-4">
-            Message and data rates may apply. Message frequency varies based on account activity. To opt out of SMS notifications at any time, reply <strong>STOP</strong> to any message. For help, reply <strong>HELP</strong> or contact us at <a href="mailto:support@hermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@hermello.com</a>.
+            Message and data rates may apply. Message frequency varies based on account activity. To opt out of SMS notifications at any time, reply <strong>STOP</strong> to any message. For help, reply <strong>HELP</strong> or contact us at <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryhermello.com</a>.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">14. Contact Us</h2>
@@ -203,8 +203,8 @@ export default function PrivacyPage() {
             If you have any questions about this Privacy Policy or our privacy practices, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@hermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@hermello.com</a></p>
-            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@hermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@hermello.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryhermello.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryhermello.com</a></p>
             <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#1A1A1A] hover:text-[#555555]">https://hermello.com</a></p>
           </div>
 
@@ -259,14 +259,14 @@ export default function PrivacyPage() {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <p className="text-gray-400">
-                support@hermello.com
+                support@tryhermello.com
               </p>
               <p className="text-gray-400 mt-1">
-                (855) 437-6355
+                (855) 610-6247
               </p>
               <p className="text-gray-400 mt-2 text-sm">
-                8 The Green, Ste A<br />
-                Dover, DE 19901<br />
+                7421 Burnet Rd, Suite 184<br />
+                Austin, TX 78757<br />
                 United States
               </p>
             </div>
