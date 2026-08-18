@@ -9,7 +9,7 @@ export default function SmsPolicyPage() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-2xl font-extrabold text-[#272329] tracking-tight">Hermello</span>
+                <img src="/logo.png" alt="Hermello" className="h-10 w-auto" />
               </Link>
             </div>
             <div className="hidden md:block">

@@ -10,7 +10,7 @@ export default function HomePage() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-2xl font-extrabold text-[#272329] tracking-tight">Hermello</span>
+                <img src="/logo.png" alt="Hermello" className="h-10 w-auto" />
               </Link>
             </div>
             <div className="hidden md:block">
@@ -339,7 +339,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
-              <span className="text-2xl font-extrabold text-white tracking-tight">Hermello</span>
+              <img src="/logo.png" alt="Hermello" className="h-10 w-auto" />
               <p className="text-gray-400 mt-3">
                 Hermello — employee engagement software that drives real culture.
               </p>
