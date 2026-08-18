@@ -9,7 +9,7 @@ export default function TermsPage() {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <img src="/logo.png" alt="Hermello" className="h-10 w-auto" />
+                <img src="/logo.png" alt="Hermello" className="h-20 w-auto" />
               </Link>
             </div>
             <div className="hidden md:block">
