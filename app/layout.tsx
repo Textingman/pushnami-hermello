@@ -13,20 +13,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Volt Internal Comms — Employee Engagement Platform",
-  description: "Recognize effort, reward performance, and build a culture people love. Volt Internal Comms is the employee engagement platform that drives real recognition, reduces turnover, and keeps your team motivated.",
+  title: "Hermello — Employee Engagement That Works",
+  description: "Hermello helps businesses connect with and retain their teams through simple, effective engagement tools. Get started today.",
   keywords: "employee engagement, employee recognition, workplace culture, employee rewards, team engagement, HR software, employee retention",
   openGraph: {
-    title: "Volt Internal Comms — Employee Engagement Platform",
-    description: "Recognize effort, reward performance, and build a culture people love. The employee engagement platform that drives real recognition and reduces turnover.",
-    url: "https://tryvoltinternalcomms.com",
-    siteName: "Volt Internal Comms",
+    title: "Hermello — Employee Engagement That Works",
+    description: "Hermello helps businesses connect with and retain their teams through simple, effective engagement tools delivered directly to employees' phones.",
+    url: "https://www.hermello.com",
+    siteName: "Hermello",
     images: [
       {
         url: "/logo.png",
         width: 1200,
         height: 630,
-        alt: "Volt Internal Comms — Employee Engagement Platform",
+        alt: "Hermello — Employee Engagement Platform",
       },
     ],
     locale: "en_US",
@@ -34,8 +34,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Volt Internal Comms — Employee Engagement Platform",
-    description: "Recognize effort, reward performance, and build a culture people love.",
+    title: "Hermello — Employee Engagement That Works",
+    description: "Hermello helps businesses connect with and retain their teams through simple, effective engagement tools.",
     images: ["/logo.png"],
   },
   robots: {
