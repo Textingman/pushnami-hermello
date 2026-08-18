@@ -64,15 +64,15 @@ function VerifyPageContent() {
 
 
   return (
-    <div className="min-h-screen bg-[#F9F9F9] flex items-center justify-center px-4 py-8">
-      <div className="max-w-xl w-full bg-white rounded-2xl shadow-xl p-4 sm:p-6 md:p-8 relative before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-1.5 before:bg-[#EFE810] before:rounded-t-2xl">
+    <div className="min-h-screen bg-[#FFF8F2] flex items-center justify-center px-4 py-8">
+      <div className="max-w-xl w-full bg-white rounded-2xl shadow-xl p-4 sm:p-6 md:p-8 relative before:content-[''] before:absolute before:top-0 before:left-0 before:right-0 before:h-1.5 before:bg-[#F26B5E] before:rounded-t-2xl">
         {/* Verification Content */}
         <div className="text-center mb-8">
-          <div className="w-20 h-20 bg-[#EFE810] rounded-full flex items-center justify-center mx-auto mb-6">
-            <CheckCircle className="w-12 h-12 text-[#1A1A1A]" />
+          <div className="w-20 h-20 bg-[#F26B5E] rounded-full flex items-center justify-center mx-auto mb-6">
+            <CheckCircle className="w-12 h-12 text-[#272329]" />
           </div>
           
-          <h2 className="text-xl sm:text-2xl font-bold text-[#1A1A1A] mb-6 px-2">
+          <h2 className="text-xl sm:text-2xl font-bold text-[#272329] mb-6 px-2">
             Validate your number.
           </h2>
           
@@ -83,7 +83,7 @@ function VerifyPageContent() {
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
               placeholder="Enter phone number"
-              className="w-full bg-gray-50 rounded-lg p-3 sm:p-4 text-lg sm:text-xl font-bold text-[#1A1A1A] tracking-wider text-center border-2 border-[#E5E7EB] focus:border-[#EFE810] focus:outline-none transition-colors"
+              className="w-full bg-gray-50 rounded-lg p-3 sm:p-4 text-lg sm:text-xl font-bold text-[#272329] tracking-wider text-center border-2 border-[#F6B26B] focus:border-[#F26B5E] focus:outline-none transition-colors"
             />
           </div>
 
@@ -94,7 +94,7 @@ function VerifyPageContent() {
             className={`w-full py-3 sm:py-4 px-4 sm:px-6 rounded-lg text-base sm:text-lg font-semibold transition-all duration-300 ${
               isRedirecting
                 ? 'bg-gray-400 cursor-not-allowed text-white'
-                : 'bg-[#EFE810] hover:bg-[#d4cd00] text-[#1A1A1A] shadow-lg hover:shadow-xl !cursor-pointer'
+                : 'bg-[#F26B5E] hover:bg-[#d4503f] text-[#272329] shadow-lg hover:shadow-xl !cursor-pointer'
             }`}
           >
             {isRedirecting ? (
@@ -112,8 +112,8 @@ function VerifyPageContent() {
         </div>
 
         {/* Footer */}
-        <div className="text-center pt-6 border-t border-[#E5E7EB]">
-          <p className="text-xs text-[#555555]">
+        <div className="text-center pt-6 border-t border-[#F6B26B]">
+          <p className="text-xs text-[#4A234F]">
             Secured by Hermello
           </p>
         </div>
@@ -125,10 +125,10 @@ function VerifyPageContent() {
 export default function VerifyPage() {
   return (
     <Suspense fallback={
-      <div className="min-h-screen bg-[#F9F9F9] flex items-center justify-center">
+      <div className="min-h-screen bg-[#FFF8F2] flex items-center justify-center">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#EFE810] mx-auto"></div>
-          <p className="mt-4 text-[#555555]">Loading...</p>
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#F26B5E] mx-auto"></div>
+          <p className="mt-4 text-[#4A234F]">Loading...</p>
         </div>
       </div>
     }>

@@ -5,32 +5,32 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="bg-white shadow-sm border-b border-[#E5E7EB]">
+      <nav className="bg-white shadow-sm border-b border-[#F6B26B]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-2xl font-extrabold text-[#1A1A1A] tracking-tight">Hermello</span>
+                <span className="text-2xl font-extrabold text-[#272329] tracking-tight">Hermello</span>
               </Link>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <Link href="/" className="text-[#1A1A1A] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/" className="text-[#272329] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   Home
                 </Link>
-                <Link href="/about" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/about" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   About
                 </Link>
-                <Link href="/privacy" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/privacy" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   Privacy
                 </Link>
-                <Link href="/terms" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/terms" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
-                <Link href="/contact" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/contact" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   Contact
                 </Link>
-                <Link href="/signup" className="bg-[#EFE810] text-[#1A1A1A] hover:bg-[#d4cd00] px-4 py-2 rounded-md text-sm font-semibold">
+                <Link href="/signup" className="bg-[#F26B5E] text-[#272329] hover:bg-[#d4503f] px-4 py-2 rounded-md text-sm font-semibold">
                   Request Access
                 </Link>
               </div>
@@ -42,27 +42,27 @@ export default function HomePage() {
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center">
-          <div className="inline-flex items-center bg-[#EFE810] text-[#1A1A1A] px-4 py-2 rounded-full text-sm font-semibold mb-8">
+          <div className="inline-flex items-center bg-[#F26B5E] text-[#272329] px-4 py-2 rounded-full text-sm font-semibold mb-8">
             <Star className="w-4 h-4 mr-2" />
-            The Future of Employee Engagement
+            Reimagining How Teams Stay Engaged
           </div>
-          <h1 className="text-5xl font-extrabold text-[#1A1A1A] sm:text-6xl md:text-7xl leading-tight">
-            Turn Employees Into
-            <span className="block text-[#EFE810] [-webkit-text-stroke:2px_#1A1A1A]">Engaged Champions</span>
+          <h1 className="text-5xl font-extrabold text-[#272329] sm:text-6xl md:text-7xl leading-tight">
+            Build a Workplace Where
+            <span className="block text-[#F26B5E] [-webkit-text-stroke:2px_#272329]">People Actually Thrive</span>
           </h1>
-          <p className="mt-6 max-w-2xl mx-auto text-xl text-[#555555]">
-            Recognize effort, reward performance, and build a culture people love — all in one powerful employee engagement platform. Boost morale, reduce turnover, and grow together.
+          <p className="mt-6 max-w-2xl mx-auto text-xl text-[#4A234F]">
+            From peer recognition to performance rewards, Hermello gives your team the tools to feel valued every day. Stronger culture, lower turnover, better results.
           </p>
           <div className="mt-10 flex justify-center gap-4">
             <Link
               href="/signup"
-              className="px-8 py-4 bg-[#EFE810] text-[#1A1A1A] text-lg font-semibold rounded-lg hover:bg-[#d4cd00] transition-colors shadow-md"
+              className="px-8 py-4 bg-[#F26B5E] text-[#272329] text-lg font-semibold rounded-lg hover:bg-[#d4503f] transition-colors shadow-md"
             >
               Request Access
             </Link>
             <Link
               href="/about"
-              className="px-8 py-4 bg-white text-[#1A1A1A] text-lg font-semibold rounded-lg hover:bg-[#F9F9F9] transition-colors border-2 border-[#1A1A1A]"
+              className="px-8 py-4 bg-white text-[#272329] text-lg font-semibold rounded-lg hover:bg-[#FFF8F2] transition-colors border-2 border-[#4A234F]"
             >
               Learn More
             </Link>
@@ -71,24 +71,24 @@ export default function HomePage() {
       </section>
 
       {/* Stats Section */}
-      <section className="bg-[#1A1A1A] py-16">
+      <section className="bg-[#4A234F] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <p className="text-4xl font-extrabold text-[#EFE810]">4x</p>
-              <p className="text-white/70 mt-2">Higher productivity in engaged teams</p>
+              <p className="text-4xl font-extrabold text-[#F26B5E]">4x</p>
+              <p className="text-white/70 mt-2">More productive when employees feel recognized</p>
             </div>
             <div>
-              <p className="text-4xl font-extrabold text-[#EFE810]">59%</p>
-              <p className="text-white/70 mt-2">Less turnover with recognition programs</p>
+              <p className="text-4xl font-extrabold text-[#F26B5E]">59%</p>
+              <p className="text-white/70 mt-2">Reduction in turnover with structured recognition</p>
             </div>
             <div>
-              <p className="text-4xl font-extrabold text-[#EFE810]">21%</p>
-              <p className="text-white/70 mt-2">Profitability boost from engaged employees</p>
+              <p className="text-4xl font-extrabold text-[#F26B5E]">21%</p>
+              <p className="text-white/70 mt-2">Increase in profitability from engaged workforces</p>
             </div>
             <div>
-              <p className="text-4xl font-extrabold text-[#EFE810]">87%</p>
-              <p className="text-white/70 mt-2">Of employees want more recognition</p>
+              <p className="text-4xl font-extrabold text-[#F26B5E]">87%</p>
+              <p className="text-white/70 mt-2">Of employees say recognition motivates them</p>
             </div>
           </div>
         </div>
@@ -97,51 +97,51 @@ export default function HomePage() {
       {/* Features Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-[#1A1A1A]">Everything You Need to Engage Your Team</h2>
-          <p className="mt-4 text-xl text-[#555555]">
-            A complete employee engagement platform built for modern workplaces
+          <h2 className="text-4xl font-bold text-[#272329]">One Platform. Every Tool You Need.</h2>
+          <p className="mt-4 text-xl text-[#4A234F]">
+            Built for teams that want to recognize, reward, and retain their best people
           </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-[#E5E7EB]">
+          <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-[#F6B26B]">
             <div className="flex justify-center mb-4">
-              <div className="w-14 h-14 bg-[#EFE810] rounded-full flex items-center justify-center">
-                <Award className="w-8 h-8 text-[#1A1A1A]" />
+              <div className="w-14 h-14 bg-[#F26B5E] rounded-full flex items-center justify-center">
+                <Award className="w-8 h-8 text-[#272329]" />
               </div>
             </div>
-            <h3 className="text-xl font-semibold text-[#1A1A1A] text-center mb-3">
+            <h3 className="text-xl font-semibold text-[#272329] text-center mb-3">
               Points & Recognition
             </h3>
-            <p className="text-[#555555] text-center">
+            <p className="text-[#4A234F] text-center">
               Reward employees for hitting milestones, going above and beyond, peer recognition, and any custom achievement that matters to your culture.
             </p>
           </div>
 
-          <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-[#E5E7EB]">
+          <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-[#F6B26B]">
             <div className="flex justify-center mb-4">
-              <div className="w-14 h-14 bg-[#EFE810] rounded-full flex items-center justify-center">
-                <BarChart3 className="w-8 h-8 text-[#1A1A1A]" />
+              <div className="w-14 h-14 bg-[#F26B5E] rounded-full flex items-center justify-center">
+                <BarChart3 className="w-8 h-8 text-[#272329]" />
               </div>
             </div>
-            <h3 className="text-xl font-semibold text-[#1A1A1A] text-center mb-3">
+            <h3 className="text-xl font-semibold text-[#272329] text-center mb-3">
               Engagement Analytics
             </h3>
-            <p className="text-[#555555] text-center">
+            <p className="text-[#4A234F] text-center">
               Track participation rates, recognition trends, team morale scores, and at-risk employees with live dashboards and actionable insights.
             </p>
           </div>
 
-          <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-[#E5E7EB]">
+          <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-shadow border border-[#F6B26B]">
             <div className="flex justify-center mb-4">
-              <div className="w-14 h-14 bg-[#EFE810] rounded-full flex items-center justify-center">
-                <Users className="w-8 h-8 text-[#1A1A1A]" />
+              <div className="w-14 h-14 bg-[#F26B5E] rounded-full flex items-center justify-center">
+                <Users className="w-8 h-8 text-[#272329]" />
               </div>
             </div>
-            <h3 className="text-xl font-semibold text-[#1A1A1A] text-center mb-3">
+            <h3 className="text-xl font-semibold text-[#272329] text-center mb-3">
               Team Segmentation
             </h3>
-            <p className="text-[#555555] text-center">
+            <p className="text-[#4A234F] text-center">
               Organize employees by department, tenure, performance tier, and role to deliver personalized recognition experiences at scale.
             </p>
           </div>
@@ -149,11 +149,11 @@ export default function HomePage() {
       </section>
 
       {/* How It Works Section */}
-      <section className="bg-[#F9F9F9] py-24">
+      <section className="bg-[#FFF8F2] py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#1A1A1A]">How Employee Engagement Works</h2>
-            <p className="mt-4 text-xl text-[#555555]">
+            <h2 className="text-4xl font-bold text-[#272329]">How Employee Engagement Works</h2>
+            <p className="mt-4 text-xl text-[#4A234F]">
               Get your team energized in minutes, not months
             </p>
           </div>
@@ -161,77 +161,77 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="space-y-12">
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-12 h-12 bg-[#EFE810] rounded-full flex items-center justify-center font-bold text-[#1A1A1A] text-lg mr-6">1</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-[#F26B5E] rounded-full flex items-center justify-center font-bold text-[#272329] text-lg mr-6">1</div>
                 <div>
-                  <h3 className="text-2xl font-bold text-[#1A1A1A] mb-3">Set Up Your Program</h3>
-                  <p className="text-lg text-[#555555] leading-relaxed">
+                  <h3 className="text-2xl font-bold text-[#272329] mb-3">Set Up Your Program</h3>
+                  <p className="text-lg text-[#4A234F] leading-relaxed">
                     Define your recognition structure, reward tiers, and earning rules. Customize the experience to match your company culture in minutes.
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-12 h-12 bg-[#EFE810] rounded-full flex items-center justify-center font-bold text-[#1A1A1A] text-lg mr-6">2</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-[#F26B5E] rounded-full flex items-center justify-center font-bold text-[#272329] text-lg mr-6">2</div>
                 <div>
-                  <h3 className="text-2xl font-bold text-[#1A1A1A] mb-3">Recognize Your Team</h3>
-                  <p className="text-lg text-[#555555] leading-relaxed">
+                  <h3 className="text-2xl font-bold text-[#272329] mb-3">Recognize Your Team</h3>
+                  <p className="text-lg text-[#4A234F] leading-relaxed">
                     Employees earn points for every achievement — project completions, peer shoutouts, attendance streaks, birthdays, and more.
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-12 h-12 bg-[#EFE810] rounded-full flex items-center justify-center font-bold text-[#1A1A1A] text-lg mr-6">3</div>
+                <div className="flex-shrink-0 w-12 h-12 bg-[#F26B5E] rounded-full flex items-center justify-center font-bold text-[#272329] text-lg mr-6">3</div>
                 <div>
-                  <h3 className="text-2xl font-bold text-[#1A1A1A] mb-3">Watch Culture Thrive</h3>
-                  <p className="text-lg text-[#555555] leading-relaxed">
+                  <h3 className="text-2xl font-bold text-[#272329] mb-3">Watch Culture Thrive</h3>
+                  <p className="text-lg text-[#4A234F] leading-relaxed">
                     Track results in real time. See which programs drive the most engagement and optimize your culture for maximum retention and performance.
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="bg-[#1A1A1A] rounded-2xl p-10 text-white">
+            <div className="bg-[#4A234F] rounded-2xl p-10 text-white">
               <div className="space-y-6">
                 <div className="flex items-center justify-between bg-white/10 rounded-xl p-4">
                   <div className="flex items-center">
-                    <Award className="w-8 h-8 text-[#EFE810] mr-3" />
+                    <Award className="w-8 h-8 text-[#F26B5E] mr-3" />
                     <div>
                       <p className="font-semibold">Top Performer Badge</p>
                       <p className="text-white/60 text-sm">Sarah M. — Q2 Sales Leader</p>
                     </div>
                   </div>
-                  <span className="text-[#EFE810] font-bold">+500 pts</span>
+                  <span className="text-[#F26B5E] font-bold">+500 pts</span>
                 </div>
                 <div className="flex items-center justify-between bg-white/10 rounded-xl p-4">
                   <div className="flex items-center">
-                    <Heart className="w-8 h-8 text-[#EFE810] mr-3" />
+                    <Heart className="w-8 h-8 text-[#F26B5E] mr-3" />
                     <div>
                       <p className="font-semibold">Peer Recognition</p>
                       <p className="text-white/60 text-sm">James K. — &quot;Team MVP&quot;</p>
                     </div>
                   </div>
-                  <span className="text-[#EFE810] font-bold">+150 pts</span>
+                  <span className="text-[#F26B5E] font-bold">+150 pts</span>
                 </div>
                 <div className="flex items-center justify-between bg-white/10 rounded-xl p-4">
                   <div className="flex items-center">
-                    <TrendingUp className="w-8 h-8 text-[#EFE810] mr-3" />
+                    <TrendingUp className="w-8 h-8 text-[#F26B5E] mr-3" />
                     <div>
                       <p className="font-semibold">Engagement This Month</p>
                       <p className="text-white/60 text-sm">Across all departments</p>
                     </div>
                   </div>
-                  <span className="text-[#EFE810] font-bold">+41%</span>
+                  <span className="text-[#F26B5E] font-bold">+41%</span>
                 </div>
                 <div className="flex items-center justify-between bg-white/10 rounded-xl p-4">
                   <div className="flex items-center">
-                    <Zap className="w-8 h-8 text-[#EFE810] mr-3" />
+                    <Zap className="w-8 h-8 text-[#F26B5E] mr-3" />
                     <div>
                       <p className="font-semibold">Milestone Bonus</p>
                       <p className="text-white/60 text-sm">Maria L. — 2-Year Anniversary</p>
                     </div>
                   </div>
-                  <span className="text-[#EFE810] font-bold">+300 pts</span>
+                  <span className="text-[#F26B5E] font-bold">+300 pts</span>
                 </div>
               </div>
             </div>
@@ -242,72 +242,72 @@ export default function HomePage() {
       {/* Solutions Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-[#1A1A1A]">Built for Every Workplace</h2>
-          <p className="mt-4 text-xl text-[#555555]">
+          <h2 className="text-4xl font-bold text-[#272329]">Built for Every Workplace</h2>
+          <p className="mt-4 text-xl text-[#4A234F]">
             Whether you&apos;re a startup or an enterprise, engagement scales with you
           </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="border-2 border-[#E5E7EB] rounded-xl p-8 hover:border-[#EFE810] transition-colors">
-            <h3 className="text-xl font-bold text-[#1A1A1A] mb-4">Small & Mid-Size Teams</h3>
-            <p className="text-[#555555] mb-6">
+          <div className="border-2 border-[#F6B26B] rounded-xl p-8 hover:border-[#F26B5E] transition-colors">
+            <h3 className="text-xl font-bold text-[#272329] mb-4">Small & Mid-Size Teams</h3>
+            <p className="text-[#4A234F] mb-6">
               Build a strong culture from day one. Recognize wins, celebrate milestones, and keep your team motivated as you grow.
             </p>
-            <ul className="space-y-2 text-[#555555]">
-              <li className="flex items-center"><span className="w-2 h-2 bg-[#EFE810] rounded-full mr-3"></span>Easy onboarding</li>
-              <li className="flex items-center"><span className="w-2 h-2 bg-[#EFE810] rounded-full mr-3"></span>Peer-to-peer recognition</li>
-              <li className="flex items-center"><span className="w-2 h-2 bg-[#EFE810] rounded-full mr-3"></span>Birthday & work anniversary rewards</li>
+            <ul className="space-y-2 text-[#4A234F]">
+              <li className="flex items-center"><span className="w-2 h-2 bg-[#F26B5E] rounded-full mr-3"></span>Easy onboarding</li>
+              <li className="flex items-center"><span className="w-2 h-2 bg-[#F26B5E] rounded-full mr-3"></span>Peer-to-peer recognition</li>
+              <li className="flex items-center"><span className="w-2 h-2 bg-[#F26B5E] rounded-full mr-3"></span>Birthday & work anniversary rewards</li>
             </ul>
           </div>
 
-          <div className="border-2 border-[#EFE810] rounded-xl p-8 bg-[#FFFDE7]">
-            <div className="inline-block bg-[#EFE810] text-[#1A1A1A] text-xs font-bold px-3 py-1 rounded-full mb-4">MOST POPULAR</div>
-            <h3 className="text-xl font-bold text-[#1A1A1A] mb-4">Corporate & Enterprise</h3>
-            <p className="text-[#555555] mb-6">
+          <div className="border-2 border-[#F26B5E] rounded-xl p-8 bg-[#FFFDE7]">
+            <div className="inline-block bg-[#F26B5E] text-[#272329] text-xs font-bold px-3 py-1 rounded-full mb-4">MOST POPULAR</div>
+            <h3 className="text-xl font-bold text-[#272329] mb-4">Corporate & Enterprise</h3>
+            <p className="text-[#4A234F] mb-6">
               Drive engagement across departments, locations, and remote teams with a unified recognition platform that scales.
             </p>
-            <ul className="space-y-2 text-[#555555]">
-              <li className="flex items-center"><span className="w-2 h-2 bg-[#EFE810] rounded-full mr-3"></span>Multi-department support</li>
-              <li className="flex items-center"><span className="w-2 h-2 bg-[#EFE810] rounded-full mr-3"></span>Manager-led recognition</li>
-              <li className="flex items-center"><span className="w-2 h-2 bg-[#EFE810] rounded-full mr-3"></span>Advanced analytics & reporting</li>
+            <ul className="space-y-2 text-[#4A234F]">
+              <li className="flex items-center"><span className="w-2 h-2 bg-[#F26B5E] rounded-full mr-3"></span>Multi-department support</li>
+              <li className="flex items-center"><span className="w-2 h-2 bg-[#F26B5E] rounded-full mr-3"></span>Manager-led recognition</li>
+              <li className="flex items-center"><span className="w-2 h-2 bg-[#F26B5E] rounded-full mr-3"></span>Advanced analytics & reporting</li>
             </ul>
           </div>
 
-          <div className="border-2 border-[#E5E7EB] rounded-xl p-8 hover:border-[#EFE810] transition-colors">
-            <h3 className="text-xl font-bold text-[#1A1A1A] mb-4">Remote & Hybrid Teams</h3>
-            <p className="text-[#555555] mb-6">
+          <div className="border-2 border-[#F6B26B] rounded-xl p-8 hover:border-[#F26B5E] transition-colors">
+            <h3 className="text-xl font-bold text-[#272329] mb-4">Remote & Hybrid Teams</h3>
+            <p className="text-[#4A234F] mb-6">
               Keep distributed teams connected and motivated. Bridge the gap between remote and in-office employees with digital recognition.
             </p>
-            <ul className="space-y-2 text-[#555555]">
-              <li className="flex items-center"><span className="w-2 h-2 bg-[#EFE810] rounded-full mr-3"></span>Virtual shoutouts & badges</li>
-              <li className="flex items-center"><span className="w-2 h-2 bg-[#EFE810] rounded-full mr-3"></span>SMS & email notifications</li>
-              <li className="flex items-center"><span className="w-2 h-2 bg-[#EFE810] rounded-full mr-3"></span>Team leaderboards</li>
+            <ul className="space-y-2 text-[#4A234F]">
+              <li className="flex items-center"><span className="w-2 h-2 bg-[#F26B5E] rounded-full mr-3"></span>Virtual shoutouts & badges</li>
+              <li className="flex items-center"><span className="w-2 h-2 bg-[#F26B5E] rounded-full mr-3"></span>SMS & email notifications</li>
+              <li className="flex items-center"><span className="w-2 h-2 bg-[#F26B5E] rounded-full mr-3"></span>Team leaderboards</li>
             </ul>
           </div>
         </div>
       </section>
 
       {/* Benefits Section */}
-      <section className="bg-[#F9F9F9] py-20">
+      <section className="bg-[#FFF8F2] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#1A1A1A]">Why Employees Love Hermello</h2>
-            <p className="mt-4 text-xl text-[#555555]">Real rewards for real effort</p>
+            <h2 className="text-4xl font-bold text-[#272329]">Why Employees Love Hermello</h2>
+            <p className="mt-4 text-xl text-[#4A234F]">Real rewards for real effort</p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { icon: <CheckCircle className="w-7 h-7 text-[#1A1A1A]" />, title: 'Instant Recognition', desc: 'Get recognized the moment you achieve something great — no waiting for annual reviews.' },
-              { icon: <Award className="w-7 h-7 text-[#1A1A1A]" />, title: 'Meaningful Rewards', desc: 'Redeem points for gift cards, extra PTO, experiences, and perks that actually matter.' },
-              { icon: <Users className="w-7 h-7 text-[#1A1A1A]" />, title: 'Team Connection', desc: 'Celebrate wins together. Peer recognition builds stronger bonds and a more supportive culture.' },
-              { icon: <TrendingUp className="w-7 h-7 text-[#1A1A1A]" />, title: 'Career Growth', desc: 'Track your achievements, build your recognition history, and showcase your impact over time.' },
+              { icon: <CheckCircle className="w-7 h-7 text-[#272329]" />, title: 'Instant Recognition', desc: 'Get recognized the moment you achieve something great — no waiting for annual reviews.' },
+              { icon: <Award className="w-7 h-7 text-[#272329]" />, title: 'Meaningful Rewards', desc: 'Redeem points for gift cards, extra PTO, experiences, and perks that actually matter.' },
+              { icon: <Users className="w-7 h-7 text-[#272329]" />, title: 'Team Connection', desc: 'Celebrate wins together. Peer recognition builds stronger bonds and a more supportive culture.' },
+              { icon: <TrendingUp className="w-7 h-7 text-[#272329]" />, title: 'Career Growth', desc: 'Track your achievements, build your recognition history, and showcase your impact over time.' },
             ].map((item, i) => (
               <div key={i} className="text-center">
-                <div className="bg-[#EFE810] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="bg-[#F26B5E] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                   {item.icon}
                 </div>
-                <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">{item.title}</h3>
-                <p className="text-[#555555]">{item.desc}</p>
+                <h3 className="text-lg font-semibold text-[#272329] mb-2">{item.title}</h3>
+                <p className="text-[#4A234F]">{item.desc}</p>
               </div>
             ))}
           </div>
@@ -316,17 +316,17 @@ export default function HomePage() {
 
       {/* CTA Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="bg-[#1A1A1A] rounded-2xl shadow-2xl overflow-hidden">
+        <div className="bg-[#4A234F] rounded-2xl shadow-2xl overflow-hidden">
           <div className="px-6 py-16 sm:px-12 sm:py-20 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Ready to Build a Culture People Love?
+              Your Team Deserves Better Than Annual Reviews
             </h2>
             <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
-              Join thousands of companies using Hermello to recognize, reward, and retain their best people. Request access today.
+              Give your employees the recognition they deserve — in real time, every day. Join companies using Hermello to build cultures that last.
             </p>
             <Link
               href="/signup"
-              className="inline-block px-8 py-4 bg-[#EFE810] text-[#1A1A1A] text-lg font-semibold rounded-lg hover:bg-[#d4cd00] transition-colors shadow-lg"
+              className="inline-block px-8 py-4 bg-[#F26B5E] text-[#272329] text-lg font-semibold rounded-lg hover:bg-[#d4503f] transition-colors shadow-lg"
             >
               Request Access
             </Link>
@@ -335,7 +335,7 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#1A1A1A] text-white py-12">
+      <footer className="bg-[#4A234F] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>

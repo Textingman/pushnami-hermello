@@ -5,32 +5,32 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="bg-white shadow-sm border-b border-[#E5E7EB]">
+      <nav className="bg-white shadow-sm border-b border-[#F6B26B]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-2xl font-extrabold text-[#1A1A1A] tracking-tight">Hermello</span>
+                <span className="text-2xl font-extrabold text-[#272329] tracking-tight">Hermello</span>
               </Link>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <Link href="/" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   Home
                 </Link>
-                <Link href="/about" className="text-[#1A1A1A] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/about" className="text-[#272329] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   About
                 </Link>
-                <Link href="/privacy" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/privacy" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   Privacy
                 </Link>
-                <Link href="/terms" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/terms" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
-                <Link href="/contact" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/contact" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   Contact
                 </Link>
-                <Link href="/signup" className="bg-[#EFE810] text-[#1A1A1A] hover:bg-[#d4cd00] px-4 py-2 rounded-md text-sm font-semibold">
+                <Link href="/signup" className="bg-[#F26B5E] text-[#272329] hover:bg-[#d4503f] px-4 py-2 rounded-md text-sm font-semibold">
                   Request Access
                 </Link>
               </div>
@@ -40,13 +40,13 @@ export default function AboutPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-[#F9F9F9] py-20">
+      <section className="bg-[#FFF8F2] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-extrabold text-[#1A1A1A] mb-6">
+            <h1 className="text-5xl font-extrabold text-[#272329] mb-6">
               About Hermello
             </h1>
-            <p className="text-xl text-[#555555] max-w-3xl mx-auto">
+            <p className="text-xl text-[#4A234F] max-w-3xl mx-auto">
               We&apos;re building the future of employee engagement — helping companies of all sizes create recognition programs that actually work, drive retention, and turn employees into advocates.
             </p>
           </div>
@@ -57,54 +57,54 @@ export default function AboutPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold text-[#1A1A1A] mb-6">Our Mission</h2>
-            <p className="text-lg text-[#555555] mb-4">
+            <h2 className="text-4xl font-bold text-[#272329] mb-6">Our Mission</h2>
+            <p className="text-lg text-[#4A234F] mb-4">
               Hermello was built to solve a fundamental workplace problem: companies spend enormous resources acquiring talent, yet invest almost nothing in keeping employees engaged, recognized, and motivated to stay.
             </p>
-            <p className="text-lg text-[#555555] mb-4">
+            <p className="text-lg text-[#4A234F] mb-4">
               We provide a simple, powerful employee engagement platform that makes it easy to recognize effort, reward performance, and build a culture people genuinely love — from day one through every milestone.
             </p>
-            <p className="text-lg text-[#555555]">
+            <p className="text-lg text-[#4A234F]">
               Our goal is to make enterprise-grade engagement programs accessible to every workplace — from small teams to large enterprises.
             </p>
           </div>
-          <div className="bg-[#F9F9F9] rounded-2xl p-8 border border-[#E5E7EB]">
+          <div className="bg-[#FFF8F2] rounded-2xl p-8 border border-[#F6B26B]">
             <div className="space-y-6">
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <div className="w-10 h-10 bg-[#EFE810] rounded-full flex items-center justify-center">
-                    <Target className="w-6 h-6 text-[#1A1A1A]" />
+                  <div className="w-10 h-10 bg-[#F26B5E] rounded-full flex items-center justify-center">
+                    <Target className="w-6 h-6 text-[#272329]" />
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Results-Driven</h3>
-                  <p className="text-[#555555]">
+                  <h3 className="text-lg font-semibold text-[#272329] mb-2">Results-Driven</h3>
+                  <p className="text-[#4A234F]">
                     Every feature is built to drive measurable outcomes — higher engagement, lower turnover, and stronger team culture.
                   </p>
                 </div>
               </div>
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <div className="w-10 h-10 bg-[#EFE810] rounded-full flex items-center justify-center">
-                    <Shield className="w-6 h-6 text-[#1A1A1A]" />
+                  <div className="w-10 h-10 bg-[#F26B5E] rounded-full flex items-center justify-center">
+                    <Shield className="w-6 h-6 text-[#272329]" />
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Privacy First</h3>
-                  <p className="text-[#555555]">
+                  <h3 className="text-lg font-semibold text-[#272329] mb-2">Privacy First</h3>
+                  <p className="text-[#4A234F]">
                     Employee data is protected with enterprise-grade security. We never sell employee data to third parties.
                   </p>
                 </div>
               </div>
               <div className="flex items-start">
                 <div className="flex-shrink-0">
-                  <div className="w-10 h-10 bg-[#EFE810] rounded-full flex items-center justify-center">
-                    <TrendingUp className="w-6 h-6 text-[#1A1A1A]" />
+                  <div className="w-10 h-10 bg-[#F26B5E] rounded-full flex items-center justify-center">
+                    <TrendingUp className="w-6 h-6 text-[#272329]" />
                   </div>
                 </div>
                 <div className="ml-4">
-                  <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Built to Scale</h3>
-                  <p className="text-[#555555]">
+                  <h3 className="text-lg font-semibold text-[#272329] mb-2">Built to Scale</h3>
+                  <p className="text-[#4A234F]">
                     Start with a simple recognition program and grow into advanced tiers, segmentation, and team-wide automation.
                   </p>
                 </div>
@@ -115,52 +115,52 @@ export default function AboutPage() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="bg-[#F9F9F9] py-20">
+      <section className="bg-[#FFF8F2] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#1A1A1A] mb-4">Why Companies Choose Hermello</h2>
-            <p className="text-xl text-[#555555]">
+            <h2 className="text-4xl font-bold text-[#272329] mb-4">Why Companies Choose Hermello</h2>
+            <p className="text-xl text-[#4A234F]">
               Trusted by teams that understand the value of keeping employees engaged and recognized
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
-              <div className="bg-[#EFE810] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="w-8 h-8 text-[#1A1A1A]" />
+              <div className="bg-[#F26B5E] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Award className="w-8 h-8 text-[#272329]" />
               </div>
-              <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Flexible Recognition</h3>
-              <p className="text-[#555555]">
+              <h3 className="text-lg font-semibold text-[#272329] mb-2">Flexible Recognition</h3>
+              <p className="text-[#4A234F]">
                 Points, badges, peer shoutouts, milestone rewards — build the program that fits your culture.
               </p>
             </div>
 
             <div className="text-center">
-              <div className="bg-[#EFE810] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <BarChart3 className="w-8 h-8 text-[#1A1A1A]" />
+              <div className="bg-[#F26B5E] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <BarChart3 className="w-8 h-8 text-[#272329]" />
               </div>
-              <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Engagement Analytics</h3>
-              <p className="text-[#555555]">
+              <h3 className="text-lg font-semibold text-[#272329] mb-2">Engagement Analytics</h3>
+              <p className="text-[#4A234F]">
                 Understand exactly which programs drive the most participation, morale, and retention.
               </p>
             </div>
 
             <div className="text-center">
-              <div className="bg-[#EFE810] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="w-8 h-8 text-[#1A1A1A]" />
+              <div className="bg-[#F26B5E] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="w-8 h-8 text-[#272329]" />
               </div>
-              <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Multi-Team Support</h3>
-              <p className="text-[#555555]">
+              <h3 className="text-lg font-semibold text-[#272329] mb-2">Multi-Team Support</h3>
+              <p className="text-[#4A234F]">
                 Run engagement programs across multiple departments, locations, or remote teams from one dashboard.
               </p>
             </div>
 
             <div className="text-center">
-              <div className="bg-[#EFE810] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Target className="w-8 h-8 text-[#1A1A1A]" />
+              <div className="bg-[#F26B5E] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Target className="w-8 h-8 text-[#272329]" />
               </div>
-              <h3 className="text-lg font-semibold text-[#1A1A1A] mb-2">Easy Onboarding</h3>
-              <p className="text-[#555555]">
+              <h3 className="text-lg font-semibold text-[#272329] mb-2">Easy Onboarding</h3>
+              <p className="text-[#4A234F]">
                 Employees join with a simple Company ID — no complex setup, no IT required.
               </p>
             </div>
@@ -169,7 +169,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-[#1A1A1A] py-20">
+      <section className="bg-[#4A234F] py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">
             Ready to Build a Culture People Love?
@@ -179,7 +179,7 @@ export default function AboutPage() {
           </p>
           <Link
             href="/signup"
-            className="inline-block px-8 py-4 bg-[#EFE810] text-[#1A1A1A] text-lg font-semibold rounded-lg hover:bg-[#d4cd00] transition-colors shadow-lg"
+            className="inline-block px-8 py-4 bg-[#F26B5E] text-[#272329] text-lg font-semibold rounded-lg hover:bg-[#d4503f] transition-colors shadow-lg"
           >
             Request Access
           </Link>
@@ -187,7 +187,7 @@ export default function AboutPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#1A1A1A] text-white py-12">
+      <footer className="bg-[#4A234F] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>

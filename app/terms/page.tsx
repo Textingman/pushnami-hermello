@@ -4,32 +4,32 @@ export default function TermsPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="bg-white shadow-sm border-b border-[#E5E7EB]">
+      <nav className="bg-white shadow-sm border-b border-[#F6B26B]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-2xl font-extrabold text-[#1A1A1A] tracking-tight">Hermello</span>
+                <span className="text-2xl font-extrabold text-[#272329] tracking-tight">Hermello</span>
               </Link>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <Link href="/" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   Home
                 </Link>
-                <Link href="/about" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/about" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   About
                 </Link>
-                <Link href="/privacy" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/privacy" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   Privacy
                 </Link>
-                <Link href="/terms" className="text-[#1A1A1A] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/terms" className="text-[#272329] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
-                <Link href="/contact" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/contact" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   Contact
                 </Link>
-                <Link href="/signup" className="bg-[#EFE810] text-[#1A1A1A] hover:bg-[#d4cd00] px-4 py-2 rounded-md text-sm font-semibold">
+                <Link href="/signup" className="bg-[#F26B5E] text-[#272329] hover:bg-[#d4503f] px-4 py-2 rounded-md text-sm font-semibold">
                   Get Started
                 </Link>
               </div>
@@ -39,7 +39,7 @@ export default function TermsPage() {
       </nav>
 
       {/* Header */}
-      <section className="bg-[#F9F9F9] py-12">
+      <section className="bg-[#FFF8F2] py-12">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-extrabold text-gray-900 mb-4">Terms of Service</h1>
           <p className="text-lg text-gray-600">
@@ -161,7 +161,7 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">9. Data and Privacy</h2>
           <p className="text-gray-600 mb-6">
-            Your use of the Service is also governed by our <Link href="/privacy" className="text-[#1A1A1A] hover:text-[#555555] font-medium underline">Privacy Policy</Link>. By using the Service, you consent to our collection and use of information as described in the Privacy Policy.
+            Your use of the Service is also governed by our <Link href="/privacy" className="text-[#272329] hover:text-[#4A234F] font-medium underline">Privacy Policy</Link>. By using the Service, you consent to our collection and use of information as described in the Privacy Policy.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-8 mb-4">10. Disclaimers and Limitations of Liability</h2>
@@ -263,12 +263,12 @@ export default function TermsPage() {
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.4 Opt-Out</h3>
           <p className="text-gray-600 mb-6">
-            You may opt out of SMS notifications at any time by replying <strong>STOP</strong> to any message you receive from us. After opting out, you will no longer receive SMS messages from Hermello. To re-enable SMS notifications, contact us at <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryhermello.com</a>.
+            You may opt out of SMS notifications at any time by replying <strong>STOP</strong> to any message you receive from us. After opting out, you will no longer receive SMS messages from Hermello. To re-enable SMS notifications, contact us at <a href="mailto:support@tryhermello.com" className="text-[#272329] hover:text-[#4A234F]">support@tryhermello.com</a>.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.5 Help</h3>
           <p className="text-gray-600 mb-6">
-            For help with SMS messages, reply <strong>HELP</strong> to any message or contact us at <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryhermello.com</a> or <a href="tel:+18556106247" className="text-[#1A1A1A] hover:text-[#555555]">(855) 610-6247</a>.
+            For help with SMS messages, reply <strong>HELP</strong> to any message or contact us at <a href="mailto:support@tryhermello.com" className="text-[#272329] hover:text-[#4A234F]">support@tryhermello.com</a> or <a href="tel:+18556106247" className="text-[#272329] hover:text-[#4A234F]">(855) 610-6247</a>.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.6 Message &amp; Data Rates</h3>
@@ -279,7 +279,7 @@ export default function TermsPage() {
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.7 Data Privacy</h3>
           <p className="text-gray-600 mb-6">
             <strong>No mobile information will be shared with or sold to third parties for marketing or promotional purposes.</strong> Your phone number and SMS opt-in status are used solely to deliver alert related text messages as described in this section and our{' '}
-            <Link href="/privacy" className="text-[#1A1A1A] hover:text-[#555555] underline">Privacy Policy</Link>.
+            <Link href="/privacy" className="text-[#272329] hover:text-[#4A234F] underline">Privacy Policy</Link>.
           </p>
 
           <h3 className="text-xl font-semibold text-gray-900 mt-6 mb-3">16.8 Carrier Disclaimer</h3>
@@ -292,16 +292,16 @@ export default function TermsPage() {
             If you have any questions about these Terms, please contact us:
           </p>
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryhermello.com</a></p>
-            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] hover:text-[#555555]">support@tryhermello.com</a></p>
-            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#1A1A1A] hover:text-[#555555]">https://hermello.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@tryhermello.com" className="text-[#272329] hover:text-[#4A234F]">support@tryhermello.com</a></p>
+            <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@tryhermello.com" className="text-[#272329] hover:text-[#4A234F]">support@tryhermello.com</a></p>
+            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#272329] hover:text-[#4A234F]">https://hermello.com</a></p>
           </div>
 
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#1A1A1A] text-white py-12 mt-20">
+      <footer className="bg-[#4A234F] text-white py-12 mt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>

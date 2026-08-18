@@ -35,32 +35,32 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="bg-white shadow-sm border-b border-[#E5E7EB]">
+      <nav className="bg-white shadow-sm border-b border-[#F6B26B]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-2xl font-extrabold text-[#1A1A1A] tracking-tight">Hermello</span>
+                <span className="text-2xl font-extrabold text-[#272329] tracking-tight">Hermello</span>
               </Link>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <Link href="/" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   Home
                 </Link>
-                <Link href="/about" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/about" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   About
                 </Link>
-                <Link href="/privacy" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/privacy" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   Privacy
                 </Link>
-                <Link href="/terms" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/terms" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   Terms
                 </Link>
-                <Link href="/contact" className="text-[#1A1A1A] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/contact" className="text-[#272329] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">
                   Contact
                 </Link>
-                <Link href="/signup" className="bg-[#EFE810] text-[#1A1A1A] hover:bg-[#d4cd00] px-4 py-2 rounded-md text-sm font-semibold">
+                <Link href="/signup" className="bg-[#F26B5E] text-[#272329] hover:bg-[#d4503f] px-4 py-2 rounded-md text-sm font-semibold">
                   Get Started
                 </Link>
               </div>
@@ -70,10 +70,10 @@ export default function ContactPage() {
       </nav>
 
       {/* Hero Section */}
-      <section className="bg-[#F9F9F9] py-16">
+      <section className="bg-[#FFF8F2] py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl font-extrabold text-[#1A1A1A] mb-4">Contact Us</h1>
-          <p className="text-xl text-[#555555] max-w-2xl mx-auto">
+          <h1 className="text-5xl font-extrabold text-[#272329] mb-4">Contact Us</h1>
+          <p className="text-xl text-[#4A234F] max-w-2xl mx-auto">
             Have a question or ready to get started? We&apos;d love to hear from you. Reach out and our team will get back to you within 24 hours.
           </p>
         </div>
@@ -85,40 +85,40 @@ export default function ContactPage() {
 
           {/* Contact Info */}
           <div>
-            <h2 className="text-3xl font-bold text-[#1A1A1A] mb-8">Get in Touch</h2>
+            <h2 className="text-3xl font-bold text-[#272329] mb-8">Get in Touch</h2>
 
             <div className="space-y-8">
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-12 h-12 bg-[#EFE810] rounded-full flex items-center justify-center mr-5">
-                  <Phone className="w-6 h-6 text-[#1A1A1A]" />
+                <div className="flex-shrink-0 w-12 h-12 bg-[#F26B5E] rounded-full flex items-center justify-center mr-5">
+                  <Phone className="w-6 h-6 text-[#272329]" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-[#1A1A1A] mb-1">Phone</h3>
-                  <a href="tel:+18556106247" className="text-[#555555] hover:text-[#1A1A1A] text-lg">
+                  <h3 className="text-lg font-semibold text-[#272329] mb-1">Phone</h3>
+                  <a href="tel:+18556106247" className="text-[#4A234F] hover:text-[#272329] text-lg">
                     (855) 610-6247
                   </a>
                 </div>
               </div>
 
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-12 h-12 bg-[#EFE810] rounded-full flex items-center justify-center mr-5">
-                  <Mail className="w-6 h-6 text-[#1A1A1A]" />
+                <div className="flex-shrink-0 w-12 h-12 bg-[#F26B5E] rounded-full flex items-center justify-center mr-5">
+                  <Mail className="w-6 h-6 text-[#272329]" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-[#1A1A1A] mb-1">Email</h3>
-                  <a href="mailto:support@tryhermello.com" className="text-[#555555] hover:text-[#1A1A1A] text-lg">
+                  <h3 className="text-lg font-semibold text-[#272329] mb-1">Email</h3>
+                  <a href="mailto:support@tryhermello.com" className="text-[#4A234F] hover:text-[#272329] text-lg">
                     support@tryhermello.com
                   </a>
                 </div>
               </div>
 
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-12 h-12 bg-[#EFE810] rounded-full flex items-center justify-center mr-5">
-                  <MapPin className="w-6 h-6 text-[#1A1A1A]" />
+                <div className="flex-shrink-0 w-12 h-12 bg-[#F26B5E] rounded-full flex items-center justify-center mr-5">
+                  <MapPin className="w-6 h-6 text-[#272329]" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-[#1A1A1A] mb-1">Address</h3>
-                  <p className="text-[#555555] text-lg leading-relaxed">
+                  <h3 className="text-lg font-semibold text-[#272329] mb-1">Address</h3>
+                  <p className="text-[#4A234F] text-lg leading-relaxed">
                     7421 Burnet Rd, Suite 184<br />
                     Austin, TX 78757<br />
                     United States
@@ -127,12 +127,12 @@ export default function ContactPage() {
               </div>
 
               <div className="flex items-start">
-                <div className="flex-shrink-0 w-12 h-12 bg-[#EFE810] rounded-full flex items-center justify-center mr-5">
-                  <Clock className="w-6 h-6 text-[#1A1A1A]" />
+                <div className="flex-shrink-0 w-12 h-12 bg-[#F26B5E] rounded-full flex items-center justify-center mr-5">
+                  <Clock className="w-6 h-6 text-[#272329]" />
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-[#1A1A1A] mb-1">Business Hours</h3>
-                  <p className="text-[#555555] text-lg">
+                  <h3 className="text-lg font-semibold text-[#272329] mb-1">Business Hours</h3>
+                  <p className="text-[#4A234F] text-lg">
                     Monday – Friday: 9am – 6pm EST<br />
                     Saturday – Sunday: Closed
                   </p>
@@ -142,32 +142,32 @@ export default function ContactPage() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-white rounded-2xl shadow-xl p-8 border border-[#E5E7EB]">
+          <div className="bg-white rounded-2xl shadow-xl p-8 border border-[#F6B26B]">
             {submitStatus === 'success' ? (
               <div className="text-center py-12">
-                <div className="w-20 h-20 bg-[#EFE810] rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-10 h-10 text-[#1A1A1A]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-20 h-20 bg-[#F26B5E] rounded-full flex items-center justify-center mx-auto mb-6">
+                  <svg className="w-10 h-10 text-[#272329]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
-                <h2 className="text-2xl font-bold text-[#1A1A1A] mb-3">Message Sent!</h2>
-                <p className="text-[#555555] mb-6">
+                <h2 className="text-2xl font-bold text-[#272329] mb-3">Message Sent!</h2>
+                <p className="text-[#4A234F] mb-6">
                   Thanks for reaching out. We&apos;ll get back to you within 24 hours.
                 </p>
                 <button
                   onClick={() => setSubmitStatus('idle')}
-                  className="px-6 py-3 bg-[#EFE810] text-[#1A1A1A] font-semibold rounded-lg hover:bg-[#d4cd00] transition-colors"
+                  className="px-6 py-3 bg-[#F26B5E] text-[#272329] font-semibold rounded-lg hover:bg-[#d4503f] transition-colors"
                 >
                   Send Another Message
                 </button>
               </div>
             ) : (
               <>
-                <h2 className="text-2xl font-bold text-[#1A1A1A] mb-6">Send Us a Message</h2>
+                <h2 className="text-2xl font-bold text-[#272329] mb-6">Send Us a Message</h2>
                 <form onSubmit={handleSubmit} className="space-y-5">
                   {/* Name */}
                   <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-[#1A1A1A] mb-2">
+                    <label htmlFor="name" className="block text-sm font-medium text-[#272329] mb-2">
                       Full Name *
                     </label>
                     <input
@@ -177,14 +177,14 @@ export default function ContactPage() {
                       required
                       value={formData.name}
                       onChange={handleChange}
-                      className="block w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#EFE810] focus:border-transparent"
+                      className="block w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F26B5E] focus:border-transparent"
                       placeholder="John Doe"
                     />
                   </div>
 
                   {/* Email */}
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-[#1A1A1A] mb-2">
+                    <label htmlFor="email" className="block text-sm font-medium text-[#272329] mb-2">
                       Email Address *
                     </label>
                     <input
@@ -194,14 +194,14 @@ export default function ContactPage() {
                       required
                       value={formData.email}
                       onChange={handleChange}
-                      className="block w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#EFE810] focus:border-transparent"
+                      className="block w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F26B5E] focus:border-transparent"
                       placeholder="john@company.com"
                     />
                   </div>
 
                   {/* Subject */}
                   <div>
-                    <label htmlFor="subject" className="block text-sm font-medium text-[#1A1A1A] mb-2">
+                    <label htmlFor="subject" className="block text-sm font-medium text-[#272329] mb-2">
                       Subject *
                     </label>
                     <select
@@ -210,7 +210,7 @@ export default function ContactPage() {
                       required
                       value={formData.subject}
                       onChange={handleChange}
-                      className="block w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#EFE810] focus:border-transparent bg-white"
+                      className="block w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F26B5E] focus:border-transparent bg-white"
                     >
                       <option value="">Select a subject...</option>
                       <option value="general">General Inquiry</option>
@@ -224,7 +224,7 @@ export default function ContactPage() {
 
                   {/* Message */}
                   <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-[#1A1A1A] mb-2">
+                    <label htmlFor="message" className="block text-sm font-medium text-[#272329] mb-2">
                       Message *
                     </label>
                     <textarea
@@ -234,7 +234,7 @@ export default function ContactPage() {
                       required
                       value={formData.message}
                       onChange={handleChange}
-                      className="block w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#EFE810] focus:border-transparent"
+                      className="block w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F26B5E] focus:border-transparent"
                       placeholder="How can we help you?"
                     />
                   </div>
@@ -246,7 +246,7 @@ export default function ContactPage() {
                     className={`w-full py-4 px-6 rounded-lg text-lg font-semibold transition-all ${
                       isSubmitting
                         ? 'bg-gray-400 cursor-not-allowed text-white'
-                        : 'bg-[#EFE810] hover:bg-[#d4cd00] text-[#1A1A1A] shadow-lg hover:shadow-xl'
+                        : 'bg-[#F26B5E] hover:bg-[#d4503f] text-[#272329] shadow-lg hover:shadow-xl'
                     }`}
                   >
                     {isSubmitting ? (
@@ -269,7 +269,7 @@ export default function ContactPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#1A1A1A] text-white py-12 mt-8">
+      <footer className="bg-[#4A234F] text-white py-12 mt-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>

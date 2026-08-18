@@ -45,22 +45,22 @@ export default function SignupPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="bg-white shadow-sm border-b border-[#E5E7EB]">
+      <nav className="bg-white shadow-sm border-b border-[#F6B26B]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <Link href="/" className="flex-shrink-0">
-                <span className="text-2xl font-extrabold text-[#1A1A1A] tracking-tight">Hermello</span>
+                <span className="text-2xl font-extrabold text-[#272329] tracking-tight">Hermello</span>
               </Link>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <Link href="/" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">Home</Link>
-                <Link href="/about" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">About</Link>
-                <Link href="/privacy" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">Privacy</Link>
-                <Link href="/terms" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">Terms</Link>
-                <Link href="/contact" className="text-[#555555] hover:text-[#1A1A1A] px-3 py-2 rounded-md text-sm font-medium">Contact</Link>
-                <Link href="/signup" className="bg-[#EFE810] text-[#1A1A1A] hover:bg-[#d4cd00] px-4 py-2 rounded-md text-sm font-semibold">Request Access</Link>
+                <Link href="/" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">Home</Link>
+                <Link href="/about" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">About</Link>
+                <Link href="/privacy" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">Privacy</Link>
+                <Link href="/terms" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">Terms</Link>
+                <Link href="/contact" className="text-[#4A234F] hover:text-[#272329] px-3 py-2 rounded-md text-sm font-medium">Contact</Link>
+                <Link href="/signup" className="bg-[#F26B5E] text-[#272329] hover:bg-[#d4503f] px-4 py-2 rounded-md text-sm font-semibold">Request Access</Link>
               </div>
             </div>
           </div>
@@ -68,10 +68,10 @@ export default function SignupPage() {
       </nav>
 
       {/* Hero */}
-      <section className="bg-[#F9F9F9] py-12">
+      <section className="bg-[#FFF8F2] py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl font-extrabold text-[#1A1A1A] mb-3">Request Access to Hermello</h1>
-          <p className="text-xl text-[#555555] max-w-2xl mx-auto">
+          <h1 className="text-4xl font-extrabold text-[#272329] mb-3">Request Access to Hermello</h1>
+          <p className="text-xl text-[#4A234F] max-w-2xl mx-auto">
             Join your team on the employee engagement platform that makes recognition meaningful.
           </p>
         </div>
@@ -86,17 +86,17 @@ export default function SignupPage() {
                 <div className="flex flex-col items-center">
                   <div className={`w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm border-2 transition-all ${
                     step > s.num
-                      ? 'bg-[#EFE810] border-[#EFE810] text-[#1A1A1A]'
+                      ? 'bg-[#F26B5E] border-[#F26B5E] text-[#272329]'
                       : step === s.num
-                      ? 'bg-[#1A1A1A] border-[#1A1A1A] text-white'
+                      ? 'bg-[#4A234F] border-[#272329] text-white'
                       : 'bg-white border-gray-300 text-gray-400'
                   }`}>
                     {step > s.num ? <CheckCircle className="w-5 h-5" /> : s.num}
                   </div>
-                  <span className={`mt-2 text-xs font-medium ${step === s.num ? 'text-[#1A1A1A]' : 'text-gray-400'}`}>{s.label}</span>
+                  <span className={`mt-2 text-xs font-medium ${step === s.num ? 'text-[#272329]' : 'text-gray-400'}`}>{s.label}</span>
                 </div>
                 {i < steps.length - 1 && (
-                  <div className={`flex-1 h-0.5 mx-2 mb-5 ${step > s.num ? 'bg-[#EFE810]' : 'bg-gray-200'}`} />
+                  <div className={`flex-1 h-0.5 mx-2 mb-5 ${step > s.num ? 'bg-[#F26B5E]' : 'bg-gray-200'}`} />
                 )}
               </div>
             ))}
@@ -106,7 +106,7 @@ export default function SignupPage() {
 
       {/* Form Area */}
       <section className="max-w-2xl mx-auto px-4 py-10 pb-20">
-        <div className="bg-white rounded-2xl shadow-xl border border-[#E5E7EB] p-8 md:p-12">
+        <div className="bg-white rounded-2xl shadow-xl border border-[#F6B26B] p-8 md:p-12">
 
           {/* ── STEP 1: Company ID ── */}
           {step === 1 && (
@@ -121,12 +121,12 @@ export default function SignupPage() {
               nextStep();
             }} className="space-y-6">
               <div>
-                <h2 className="text-2xl font-bold text-[#1A1A1A] mb-1">Enter your Company ID</h2>
-                <p className="text-[#555555] text-sm">Step 1 of 2 — Your employer provides this ID to get you started</p>
+                <h2 className="text-2xl font-bold text-[#272329] mb-1">Enter your Company ID</h2>
+                <p className="text-[#4A234F] text-sm">Step 1 of 2 — Your employer provides this ID to get you started</p>
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-[#1A1A1A] mb-2">Company ID *</label>
+                <label className="block text-sm font-medium text-[#272329] mb-2">Company ID *</label>
                 <div className="relative">
                   <Hash className="absolute left-3 top-3.5 h-5 w-5 text-gray-400" />
                   <input
@@ -138,7 +138,7 @@ export default function SignupPage() {
                       handleChange(e);
                       setCompanyIdError('');
                     }}
-                    className={`block w-full pl-10 pr-3 py-3 border rounded-lg focus:ring-2 focus:ring-[#EFE810] focus:border-transparent text-lg ${
+                    className={`block w-full pl-10 pr-3 py-3 border rounded-lg focus:ring-2 focus:ring-[#F26B5E] focus:border-transparent text-lg ${
                       companyIdError ? 'border-red-400 bg-red-50' : 'border-gray-300'
                     }`}
                     placeholder="e.g. 1234"
@@ -154,7 +154,7 @@ export default function SignupPage() {
 
               <button
                 type="submit"
-                className="w-full py-4 bg-[#EFE810] hover:bg-[#d4cd00] text-[#1A1A1A] text-lg font-semibold rounded-lg shadow-lg flex items-center justify-center gap-2 transition-colors"
+                className="w-full py-4 bg-[#F26B5E] hover:bg-[#d4503f] text-[#272329] text-lg font-semibold rounded-lg shadow-lg flex items-center justify-center gap-2 transition-colors"
               >
                 Continue <ChevronRight className="w-5 h-5" />
               </button>
@@ -165,69 +165,69 @@ export default function SignupPage() {
           {step === 2 && (
             <form onSubmit={handleSubmit} className="space-y-5">
               <div>
-                <h2 className="text-2xl font-bold text-[#1A1A1A] mb-1">Your details</h2>
-                <p className="text-[#555555] text-sm">Step 2 of 2 — Tell us about yourself and confirm your preferences</p>
+                <h2 className="text-2xl font-bold text-[#272329] mb-1">Your details</h2>
+                <p className="text-[#4A234F] text-sm">Step 2 of 2 — Tell us about yourself and confirm your preferences</p>
               </div>
 
               {/* Name */}
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium text-[#1A1A1A] mb-2">First Name *</label>
+                  <label className="block text-sm font-medium text-[#272329] mb-2">First Name *</label>
                   <div className="relative">
                     <User className="absolute left-3 top-3.5 h-4 w-4 text-gray-400" />
                     <input type="text" name="firstName" required value={formData.firstName} onChange={handleChange}
-                      className="block w-full pl-9 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#EFE810] focus:border-transparent"
+                      className="block w-full pl-9 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F26B5E] focus:border-transparent"
                       placeholder="Jane" />
                   </div>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-[#1A1A1A] mb-2">Last Name *</label>
+                  <label className="block text-sm font-medium text-[#272329] mb-2">Last Name *</label>
                   <input type="text" name="lastName" required value={formData.lastName} onChange={handleChange}
-                    className="block w-full px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#EFE810] focus:border-transparent"
+                    className="block w-full px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F26B5E] focus:border-transparent"
                     placeholder="Smith" />
                 </div>
               </div>
 
               {/* Email */}
               <div>
-                <label className="block text-sm font-medium text-[#1A1A1A] mb-2">Work Email *</label>
+                <label className="block text-sm font-medium text-[#272329] mb-2">Work Email *</label>
                 <div className="relative">
                   <Mail className="absolute left-3 top-3.5 h-4 w-4 text-gray-400" />
                   <input type="email" name="email" required value={formData.email} onChange={handleChange}
-                    className="block w-full pl-9 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#EFE810] focus:border-transparent"
+                    className="block w-full pl-9 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F26B5E] focus:border-transparent"
                     placeholder="jane@company.com" />
                 </div>
               </div>
 
               {/* Phone */}
               <div>
-                <label className="block text-sm font-medium text-[#1A1A1A] mb-2">Phone Number (Optional)</label>
+                <label className="block text-sm font-medium text-[#272329] mb-2">Phone Number (Optional)</label>
                 <div className="relative">
                   <Phone className="absolute left-3 top-3.5 h-4 w-4 text-gray-400" />
                   <input type="tel" name="phone" value={formData.phone} onChange={handleChange}
-                    className="block w-full pl-9 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#EFE810] focus:border-transparent"
+                    className="block w-full pl-9 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F26B5E] focus:border-transparent"
                     placeholder="(555) 123-4567" />
                 </div>
               </div>
 
               {/* Job Title */}
               <div>
-                <label className="block text-sm font-medium text-[#1A1A1A] mb-2">Job Title *</label>
+                <label className="block text-sm font-medium text-[#272329] mb-2">Job Title *</label>
                 <div className="relative">
                   <Briefcase className="absolute left-3 top-3.5 h-4 w-4 text-gray-400" />
                   <input type="text" name="jobTitle" required value={formData.jobTitle} onChange={handleChange}
-                    className="block w-full pl-9 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#EFE810] focus:border-transparent"
+                    className="block w-full pl-9 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F26B5E] focus:border-transparent"
                     placeholder="e.g. Marketing Manager" />
                 </div>
               </div>
 
               {/* Department */}
               <div>
-                <label className="block text-sm font-medium text-[#1A1A1A] mb-2">Department *</label>
+                <label className="block text-sm font-medium text-[#272329] mb-2">Department *</label>
                 <div className="relative">
                   <Building className="absolute left-3 top-3.5 h-4 w-4 text-gray-400" />
                   <select name="department" required value={formData.department} onChange={handleChange}
-                    className="block w-full pl-9 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#EFE810] focus:border-transparent bg-white">
+                    className="block w-full pl-9 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#F26B5E] focus:border-transparent bg-white">
                     <option value="">Select your department...</option>
                     <option value="sales">Sales</option>
                     <option value="marketing">Marketing</option>
@@ -247,9 +247,9 @@ export default function SignupPage() {
                 <div className="flex items-start">
                   <input type="checkbox" id="smsOptIn" name="smsOptIn" checked={formData.smsOptIn}
                     onChange={handleChange}
-                    className="mt-1 h-4 w-4 text-[#EFE810] focus:ring-[#EFE810] border-gray-300 rounded flex-shrink-0" />
-                  <label htmlFor="smsOptIn" className="ml-3 text-sm leading-relaxed text-[#555555]">
-                    By checking this box and submitting this form, you agree to receive alert related text messages from Hermello. I understand I may opt out of SMS communication by replying <strong>STOP</strong>. Reply <strong>HELP</strong> or email <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] underline">support@tryhermello.com</a> for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form or to use our services. All messages will be handled by Hermello.
+                    className="mt-1 h-4 w-4 text-[#F26B5E] focus:ring-[#F26B5E] border-gray-300 rounded flex-shrink-0" />
+                  <label htmlFor="smsOptIn" className="ml-3 text-sm leading-relaxed text-[#4A234F]">
+                    By checking this box and submitting this form, you agree to receive alert related text messages from Hermello. I understand I may opt out of SMS communication by replying <strong>STOP</strong>. Reply <strong>HELP</strong> or email <a href="mailto:support@tryhermello.com" className="text-[#272329] underline">support@tryhermello.com</a> for help. Message and Data rates may apply. Message frequency varies. Carriers are not liable for delayed or undelivered messages. Opting in to SMS is optional and not required to submit this form or to use our services. All messages will be handled by Hermello.
                   </label>
                 </div>
               </div>
@@ -259,23 +259,23 @@ export default function SignupPage() {
                 <div className="flex items-start">
                   <input type="checkbox" id="termsAccepted" name="termsAccepted" required checked={formData.termsAccepted}
                     onChange={handleChange}
-                    className="mt-1 h-4 w-4 text-[#EFE810] focus:ring-[#EFE810] border-gray-300 rounded flex-shrink-0" />
-                  <label htmlFor="termsAccepted" className="ml-3 text-sm leading-relaxed text-[#555555]">
+                    className="mt-1 h-4 w-4 text-[#F26B5E] focus:ring-[#F26B5E] border-gray-300 rounded flex-shrink-0" />
+                  <label htmlFor="termsAccepted" className="ml-3 text-sm leading-relaxed text-[#4A234F]">
                     I agree to the{' '}
-                    <Link href="/terms" className="text-[#1A1A1A] font-medium underline hover:text-[#555555]">Terms of Service</Link>{' '}
+                    <Link href="/terms" className="text-[#272329] font-medium underline hover:text-[#4A234F]">Terms of Service</Link>{' '}
                     and{' '}
-                    <Link href="/privacy" className="text-[#1A1A1A] font-medium underline hover:text-[#555555]">Privacy Policy</Link>. *
+                    <Link href="/privacy" className="text-[#272329] font-medium underline hover:text-[#4A234F]">Privacy Policy</Link>. *
                   </label>
                 </div>
               </div>
 
               <div className="flex gap-3">
                 <button type="button" onClick={prevStep}
-                  className="flex-1 py-4 border-2 border-[#1A1A1A] text-[#1A1A1A] text-lg font-semibold rounded-lg hover:bg-gray-50 transition-colors">
+                  className="flex-1 py-4 border-2 border-[#4A234F] text-[#272329] text-lg font-semibold rounded-lg hover:bg-gray-50 transition-colors">
                   Back
                 </button>
                 <button type="submit"
-                  className="flex-1 py-4 bg-[#EFE810] hover:bg-[#d4cd00] text-[#1A1A1A] text-lg font-semibold rounded-lg shadow-lg transition-colors">
+                  className="flex-1 py-4 bg-[#F26B5E] hover:bg-[#d4503f] text-[#272329] text-lg font-semibold rounded-lg shadow-lg transition-colors">
                   Submit Request
                 </button>
               </div>
@@ -285,25 +285,25 @@ export default function SignupPage() {
           {/* ── STEP 3: Confirmation ── */}
           {step === 3 && (
             <div className="text-center py-8">
-              <div className="w-24 h-24 bg-[#EFE810] rounded-full flex items-center justify-center mx-auto mb-6">
-                <CheckCircle className="w-12 h-12 text-[#1A1A1A]" />
+              <div className="w-24 h-24 bg-[#F26B5E] rounded-full flex items-center justify-center mx-auto mb-6">
+                <CheckCircle className="w-12 h-12 text-[#272329]" />
               </div>
-              <h2 className="text-3xl font-bold text-[#1A1A1A] mb-3">Request Submitted!</h2>
-              <p className="text-lg text-[#555555] mb-4 max-w-md mx-auto">
+              <h2 className="text-3xl font-bold text-[#272329] mb-3">Request Submitted!</h2>
+              <p className="text-lg text-[#4A234F] mb-4 max-w-md mx-auto">
                 Thanks, <strong>{formData.firstName}</strong>! Your access request has been received.
               </p>
-              <div className="bg-[#F9F9F9] border border-[#E5E7EB] rounded-xl p-6 mb-8 text-left max-w-md mx-auto">
-                <p className="text-[#555555] text-sm leading-relaxed">
+              <div className="bg-[#FFF8F2] border border-[#F6B26B] rounded-xl p-6 mb-8 text-left max-w-md mx-auto">
+                <p className="text-[#4A234F] text-sm leading-relaxed">
                   📧 <strong>We&apos;ve notified your employer</strong> (Company ID: <strong>{formData.companyId}</strong>) that you&apos;ve requested access to Hermello. Once they approve your request, you&apos;ll receive an email at <strong>{formData.email}</strong> with instructions to activate your account.
                 </p>
-                <p className="text-[#555555] text-sm leading-relaxed mt-3">
+                <p className="text-[#4A234F] text-sm leading-relaxed mt-3">
                   ⏱ Approval typically takes <strong>1–2 business days</strong>. If you have questions, contact us at{' '}
-                  <a href="mailto:support@tryhermello.com" className="text-[#1A1A1A] underline">support@tryhermello.com</a>{' '}
-                  or call <a href="tel:+18556106247" className="text-[#1A1A1A] underline">(855) 610-6247</a>.
+                  <a href="mailto:support@tryhermello.com" className="text-[#272329] underline">support@tryhermello.com</a>{' '}
+                  or call <a href="tel:+18556106247" className="text-[#272329] underline">(855) 610-6247</a>.
                 </p>
               </div>
               <Link href="/"
-                className="inline-block px-8 py-4 bg-[#EFE810] text-[#1A1A1A] text-lg font-semibold rounded-lg hover:bg-[#d4cd00] transition-colors shadow-md">
+                className="inline-block px-8 py-4 bg-[#F26B5E] text-[#272329] text-lg font-semibold rounded-lg hover:bg-[#d4503f] transition-colors shadow-md">
                 Back to Home
               </Link>
             </div>
@@ -313,7 +313,7 @@ export default function SignupPage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#1A1A1A] text-white py-12">
+      <footer className="bg-[#4A234F] text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div>
