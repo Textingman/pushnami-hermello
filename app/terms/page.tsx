@@ -294,7 +294,7 @@ export default function TermsPage() {
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
             <p className="text-gray-600 mb-2"><strong>Email:</strong> <a href="mailto:support@tryhermello.com" className="text-[#272329] hover:text-[#4A234F]">support@tryhermello.com</a></p>
             <p className="text-gray-600 mb-2"><strong>Support:</strong> <a href="mailto:support@tryhermello.com" className="text-[#272329] hover:text-[#4A234F]">support@tryhermello.com</a></p>
-            <p className="text-gray-600"><strong>Website:</strong> <a href="/" className="text-[#272329] hover:text-[#4A234F]">https://hermello.com</a></p>
+            <p className="text-gray-600"><strong>Website:</strong> <a href="https://tryhermello.com" className="text-[#272329] hover:text-[#4A234F]">https://tryhermello.com</a></p>
           </div>
 
         </div>
